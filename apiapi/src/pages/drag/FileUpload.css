@@ -1,0 +1,118 @@
+
+.outer{
+  height:90vh;
+  background-color: #F6FBFB;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  
+
+}
+.inner{
+  /* position: relative; */
+  /* top:3rem; */
+  /* left:4em; */
+  width:90%;
+  background-color: #FFFFFF;
+border-radius: 16px;
+height:70vh;
+border-top: 5px solid  #00B2B2;
+margin-top: 3rem; 
+
+
+}
+.parent-upload-container{
+display: flex;
+justify-content: center;
+justify-items: center;
+/* margin-top: 2rem; */
+/* border: 1px solid red; */
+height:35vh
+/* box-sizing: border-box; */
+}
+.upload-container{
+  background: rgba(245, 245, 245, 0.46);
+border: 1px dashed rgba(0, 0, 0, 0.53);
+/* box-sizing: border-box; */
+border-radius: 16px;
+width:70%;
+/* border: 1px solid black; */
+
+/* position: relative;  */
+/* left:12rem; */
+ /* top:4rem */
+
+}
+.inner-heading{
+  /* border: 1px solid blueviolet; */
+  margin-top: 2rem;
+}
+.inner-heading h1{
+  text-align: center;
+
+  /* font-family: 'Lato'; */
+/* font-style: normal; */
+font-weight: 400;
+font-size: 25px;
+line-height: 58px;
+text-transform: capitalize;
+
+
+color: #000000;
+
+
+}
+.drag-icon{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.drag-icon img{
+  width:100px
+}
+.drag-content{
+  margin-top: 1rem;
+  margin-bottom: 105rem;
+}
+.drag-content p{
+  text-align: center;
+  /* font-family: 'Lato'; */
+/* font-style: normal; */
+font-weight: 400;
+font-size: 25px;
+line-height: 43px;
+
+
+
+color: rgba(0, 0, 0, 0.46);
+
+}
+.drag-done-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  
+  
+}
+.drag-done-btn Button
+{
+  width: 20%;
+  background-color: #00B3B3;
+border-radius: 6px;
+}
+.filespreview{
+  text-align: center;
+ 
+}
+.filespreview img{
+  max-width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+
+}
+
+  
+/* @media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  
+} */

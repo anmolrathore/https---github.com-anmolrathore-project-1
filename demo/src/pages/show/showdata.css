@@ -1,0 +1,243 @@
+.container {
+  height: 100vh;
+}
+
+.header {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+  height: 8vh;
+}
+.header img {
+  width: 90px;
+  margin: 0.5rem;
+  margin-left: 4rem;
+}
+.middle-data {
+  height: 85vh;
+  background-color: #f6fbfb;
+}
+.middle-data .left-d {
+  float: left;
+  margin-left: 5.5rem;
+  width: 45%;
+
+  margin-top: 1rem;
+}
+.middle-data .right-d {
+  float: right;
+  width: 45%;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+.check-book {
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+
+  width: 88%;
+
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+.check-book h2 {
+  /* font-family: 'Nunito Sans'; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+
+  color: rgba(0, 0, 0, 0.48);
+
+  margin-left: 0.5rem;
+  height: 9vh;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+.check-book img {
+  margin: 0.1rem;
+  width: 99.5%;
+  height: 100%;
+  padding: 2px;
+}
+.left-d h1 {
+  /* font-family: Nunito Sans; */
+  /* font-family: 'Mulish', sans-serif; */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 4rem;
+
+  color: rgba(0, 0, 0, 0.84);
+  text-transform: capitalize;
+}
+.right-d h1 {
+  /* font-family: Nunito Sans; */
+  /* font-family: 'Mulish', sans-serif; */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+
+  color: rgba(0, 0, 0, 0.84);
+  text-transform: capitalize;
+}
+.staticdata {
+  height: 70vh;
+  background: #ffffff;
+  box-shadow: 0rem 0.4rem 0.4rem rgba(108, 107, 107, 0.14);
+  border-radius: 0.8rem;
+  width: 90%;
+}
+.outlined-btn {
+  margin-top: 1.2rem;
+}
+.outlined-btn Button {
+  width: 88%;
+  background: #ffffff;
+  border: 0.1rem solid #00b2b2;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  /* font-family: Nunito Sans; */
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 2rem;
+
+  color: #00b2b2;
+}
+.row1 {
+  /* margin-left: 2rem; */
+  display: flex;
+  /* margin-left: 5rem; */
+  justify-content: center;
+  justify-items: center;
+  margin-left: 0.7rem;
+}
+
+.row1 h2 {
+  /* font-family: Lato; */
+  /* font-style: normal; */
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  /* display: inline-block; */
+  color: #000000;
+  /* margin-left: 2.5rem; */
+  padding: 0.1rem;
+  justify-content: flex-start;
+  display: flex;
+  width: 40%;
+
+  margin-left: 2.5rem;
+}
+
+.row1 p {
+  /* font-family: Lato; */
+
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  /* display: inline-block; */
+  color: rgba(0, 0, 0, 0.51);
+  /* position: relative;
+left:5.5rem;
+margin-top: -1rem; */
+
+  justify-content: flex-start;
+
+  display: flex;
+  width: 50%;
+}
+.right-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.right-btn Button {
+  background: #00b3b3;
+  border-radius: 0.6rem;
+
+  padding: 0.5rem;
+  width: 80%;
+}
+.footer {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  height: 8vh;
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.footer img {
+  float: right;
+  width: 90px;
+  margin: 1rem;
+  margin-right: 1rem;
+}
+
+.image-data-container {
+  overflow-y: scroll;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  top: 1rem;
+}
+.image-data-container::-webkit-scrollbar {
+  width: 10px !important;
+  /* background-color: antiquewhite; */
+}
+
+.image-data-container::-webkit-scrollbar-thumb {
+  /* border-radius: 20px !important; */
+  background-color: rgba(0, 0, 4, 0.3) !important;
+  border-radius: 12px !important;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1360px) {
+  html {
+    font-size: 65.8%;
+  }
+  .check-book img {
+    height: 43vh;
+  }
+  .image-data-container {
+    margin-left: 0.8rem;
+  }
+  .image-data-container::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  .right-btn {
+    margin-top: 4rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .middle-data .right-d {
+    width: 42%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .middle-data .left-d {
+    float: none;
+    margin-left: 6.5rem;
+  }
+
+  .middle-data .left-d {
+    width: 80%;
+  }
+
+  .middle-data .right-d {
+    float: none;
+    width: 86%;
+    margin-left: 5rem;
+    margin-right: 0rem;
+    margin-top: 1rem;
+  }
+  .outlined-btn Button {
+    font-size: 7px;
+    line-height: 9px;
+  }
+}

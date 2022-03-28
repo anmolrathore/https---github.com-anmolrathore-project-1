@@ -1,0 +1,168 @@
+.main-container{
+    
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+.left-login{
+    width:50%;
+    
+}
+.left-login img{
+    width:800px;
+    position: fixed;
+    left:-4.5rem;
+    top:-7.6rem;
+    /* bottom:3rem */
+
+    /* top: 3rem; */
+
+   
+}
+.right-login{
+
+    width:45%;
+    background-color: white;
+
+    
+}
+.right-content{
+    margin-top: 3.4rem;
+
+}
+.logo img{
+    width:100px;
+    height: 100px    ;
+    margin-left: 5.5rem;
+
+    
+}
+.login h1{
+    position: absolute;
+margin-left: 5.5rem;
+    
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.56rem;
+    line-height: 0.12rem;
+    
+    color: #00B2B2;
+}
+.user-name{
+    margin-top: 3rem;
+    margin-left: 5.5rem;
+
+}
+.user-name p{
+    /* font-family: Segoe UI; */
+font-style: normal;
+font-weight: normal;
+font-size: 0.75rem;
+color: #4D4C4C;
+text-transform: capitalize;
+
+}
+.password{
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+
+}
+.password p{
+    /* font-family: Segoe UI; */
+font-style: normal;
+font-weight: normal;
+font-size: 0.75rem;
+
+color: #4D4C4C;
+
+}
+input[type="text"]
+{
+    width:80%;
+    
+    
+border-bottom: 1px solid #8F8F8F;
+border-top: none;
+border-left: none;
+border-right: none;
+outline: none;
+padding: 0.31rem;
+
+}
+
+input[type="password"]
+{
+    width:80%;
+    
+    
+    border-bottom: 1px solid #8F8F8F;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 0.31rem;
+}
+.rem{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 5.5rem;
+
+}
+span{
+    /* font-family: Segoe UI; */
+font-style: normal;
+font-weight: normal;
+font-size: 0.87rem;
+
+
+color: #A1A1A1;
+margin-top: -0.3rem;
+margin-left: 0.5rem;
+text-transform: capitalize;
+}
+.forget-password{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10rem;
+    
+}
+.forget-password p{
+    /* font-family: Segoe UI; */
+font-style: normal;
+font-weight: 600;
+font-size: 0.87rem;
+line-height: 0.37rem;
+text-transform: capitalize;
+
+color: #00B2B2;
+margin-left: 2.7rem;
+
+}
+.login-btn{
+    margin-top: 1.5rem;
+    margin-left: 5.5rem;
+
+}
+.login-btn Button{
+width:80% !important;
+background-color: #00B3B3 !important;
+border-radius: 6px !important;
+text-transform: capitalize !important;
+}
+
+@media (max-width: 991px) { 
+
+.left-login img{
+   width:740px;
+   position: fixed;
+   
+   left:-9rem;
+}
+.right-content{
+    margin-top: 9.5rem;
+    margin-left: 6rem;
+}
+
+}
